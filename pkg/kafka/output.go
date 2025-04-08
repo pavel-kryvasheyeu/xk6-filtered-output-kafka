@@ -187,7 +187,7 @@ func isAllowedMetric(metricName string) bool {
     return exists
 }
 
-func filterSamplesByMetricNames(samples metrics.Samples) metric.Samples {
+func filterSamplesByMetricNames(samples metrics.Samples) metrics.Samples {
     filteredSamples := make(metrics.Samples, 0, allowedMetricsCount)
     for _, sample := range samples {
         if isAllowedMetric(sample.Metric.Name) {
