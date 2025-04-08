@@ -1,4 +1,4 @@
-module github.com/grafana/xk6-output-kafka
+module github.com/pavel-kryvasheyeu/xk6-filtered-output-kafka
 
 go 1.19
 
