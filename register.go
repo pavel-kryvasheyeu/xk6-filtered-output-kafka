@@ -2,7 +2,7 @@
 package kafka
 
 import (
-	"github.com/grafana/xk6-output-kafka/pkg/kafka"
+	"github.com/pavel-kryvasheyeu/xk6-filtered-output-kafka"
 	"go.k6.io/k6/output"
 )
 
