@@ -12,7 +12,11 @@ To build a `k6` binary with this extension, first ensure you have the prerequisi
 1. Build with `xk6`:
 
 ```bash
-xk6 build --with github.com/grafana/xk6-output-kafka
+xk6 build --with github.com/pavel-kryvasheyeu/xk6-filtered-output-kafka
+```
+or with version tag:
+```bash
+xk6 build --with github.com/pavel-kryvasheyeu/xk6-filtered-output-kafka@v0.7.6
 ```
 
 This will result in a `k6` binary in the current directory.
